@@ -15,12 +15,12 @@
     <nav class="bg-white w-full z-20 top-0 start-0 py-2 md:px-8 px-4">
       <div class="w-full flex flex-wrap items-center justify-between mx-auto">
         <a href="#">
-          <img src="./public/assests/logo.svg" class="w-[150px]" alt="Logo" />
+          <img src="./public/assests/logo.svg" class="md:w-[150px] w-36" alt="Logo" />
         </a>
         <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <img src="./public/assests/button-img.svg" class="w-[200px]" alt="" />
+          <img src="./public/assests/button-img.svg" class="w-[200px] md:flex hidden" alt="" />
           <button data-collapse-toggle="navbar-sticky" type="button"
-            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-[#E6E6E6] focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-[#E6E6E6] focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-sticky" aria-expanded="false">
             <span class="sr-only">Open main menu</span>
             <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -465,8 +465,8 @@
         </div>
         <!-- Navigation Arrows -->
         <div class="flex justify-center gap-4 mt-6">
-          <div class="swiper-button-prev w-8 h-8 flex items-center justify-center rounded-full"></div>
-          <div class="swiper-button-next w-8 h-8 flex items-center justify-center rounded-full"></div>
+          <div class="swiper-button-prev w-8 h-8 md:flex items-center justify-center rounded-full"></div>
+          <div class="swiper-button-next w-8 h-8 md:flex items-center justify-center rounded-full"></div>
         </div>
       </div>
     </div>
@@ -474,6 +474,79 @@
 
 
   </section>
+
+
+  <footer class="bg-white  lg:px-8 lg:py-10 px-4">
+  <div class="border-4 border-primary md:rounded-b-[100px] rounded-b-[60px] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 md:gap-8 gap-2 text-sm text-black md:py-10 py-5 lg:px-24 md:px-16 px-4">
+    
+    <!-- Column 1 -->
+    <div>
+      <h3 class="font-bold md:mb-2">Μπιλιάρδα</h3>
+      <ul class="space-y-1">
+        <li>Τα μπιλιάρδα Sivissidis</li>
+        <li>Αμερικάνικο</li>
+        <li>Carom</li>
+        <li>Snooker</li>
+        <li>Russian</li>
+        <li>Chinese</li>
+        <li>Home</li>
+        <li>Coin-op</li>
+        <li>Όλα τα μπιλιάρδα</li>
+        <li>Όλα τα αξεσουάρ</li>
+      </ul>
+    </div>
+
+    <!-- Column 2 -->
+    <div>
+      <h3 class="font-bold md:mb-2">Ποδοσφαιράκια</h3>
+      <ul class="space-y-1 md:block hidden">
+        <li>Τα ποδοσφαιράκια Sivissidis</li>
+        <li>Home</li>
+        <li>Coin-op</li>
+        <li>Όλα τα ποδοσφαιράκια</li>
+        <li>Όλα τα αξεσουάρ</li>
+      </ul>
+    </div>
+
+    <!-- Column 3 -->
+    <div>
+      <h3 class="font-bold md:mb-2">Bowling</h3>
+      <ul class="space-y-1 md:block hidden">
+        <li>Υπηρεσίες Sivissidis</li>
+        <li>Προϊόντα για Bowlers</li>
+        <li>Προϊόντα για Αίθουσες</li>
+        <li>Προϊόντα ProShop</li>
+        <li>Όλα τα προϊόντα</li>
+        <li>Γιατί Sivissidis</li>
+      </ul>
+    </div>
+
+    <!-- Column 4 -->
+    <div>
+      <h3 class="font-bold md:mb-2">Όλα τα προϊόντα</h3>
+      <ul class="space-y-1 md:block hidden">
+        <li><strong>Sivissidis</strong></li>
+        <li>Ο κόσμος μας</li>
+        <li>Σχετικά με εμάς</li>
+        <li>Οι ιστορίες μας</li>
+        <li>Γιατί Sivissidis</li>
+      </ul>
+    </div>
+
+    <!-- Column 5 -->
+    <div>
+      <h3 class="font-bold md:mb-2">Επικοινωνία και Υποστήριξη</h3>
+      <ul class="space-y-1 md:block hidden">
+        <li>FAQs</li>
+        <li>Τρόποι Αποστολής</li>
+        <li>Τρόποι Πληρωμής</li>
+        <li>Εγγυήσεις και Επισκευές</li>
+      </ul>
+    </div>
+
+  </div>
+</footer>
+
 
   <script type="module" src="/src/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
